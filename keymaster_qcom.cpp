@@ -810,8 +810,8 @@ struct keystore_module HAL_MODULE_INFO_SYM
 __attribute__ ((visibility ("default"))) = {
     .common = {
         .tag = HARDWARE_MODULE_TAG,
-        .version_major: 1,
-        .version_minor: 0,
+        .version_major = 1,
+        .version_minor = 0,
         .id = KEYSTORE_HARDWARE_MODULE_ID,
         .name = "Keymaster QCOM HAL",
         .author = "The Android Open Source Project",
